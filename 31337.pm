@@ -6,7 +6,7 @@ require Exporter;
 use Pod::Simple::Methody ();
 use Pod::Simple ();
 use vars qw(@ISA $VERSION $FREAKYMODE @EXPORT_OK %EXPORT_TAGS);
-$VERSION = '0.01';
+$VERSION = '0.02';
 @ISA = ('Pod::Simple::Methody', 'Exporter');
 %EXPORT_TAGS = ( all => qw(pod231337) );
 @EXPORT_OK = $EXPORT_TAGS{all};
@@ -141,23 +141,22 @@ Pod::Simple::31337 - Convert POD to Cool Talk
 
 =head1 DESCRIPTION
 
-Stub documentation for Pod::Simple::31337, created by h2xs. It looks like the
-author of the extension was negligent enough to leave the stub
-unedited.
-
-Blah blah blah.
-
-=head2 EXPORT
-
-None by default.
-
+This module translates POD into Cool Talk.
 
 =head1 AUTHOR
 
-A. U. Thor, a.u.thor@a.galaxy.far.far.away
+Casey West <F<casey@geeknest.com>>
+
+=head1 COPYRIGHT
+
+Copyright (c) 2002 Casey R. West <casey@geeknest.com>.
+All rights reserved.  This program is free software; you
+can redistribute it and/or modify it under the same terms
+as Perl itself.
+
 
 =head1 SEE ALSO
 
-perl(1).
+perl(1), Pod::Simple, Lingua::31337.
 
 =cut
